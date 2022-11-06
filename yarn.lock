@@ -80,26 +80,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rails/actioncable@npm:^6.0.0":
-  version: 6.1.7
-  resolution: "@rails/actioncable@npm:6.1.7"
-  checksum: b9651d9991d6e5fffdadd64e392b8157463b63da48bc1b061541f23907b9c7d73d5d73ee1982c65c3e7d2879fe918bd7b2c776baba4fb21c8ca3c8da2dbec374
+"@rails/actioncable@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@rails/actioncable@npm:7.0.4"
+  checksum: b31cae40511a3df4d3048779255219b92f7dd89514f3c9f2da2b219b9b0635261b17b05031c7070756d319bf9165d4d6c021a820b110d53a3e6c441a062accdd
   languageName: node
   linkType: hard
 
-"@rails/activestorage@npm:^6.0.0":
-  version: 6.1.7
-  resolution: "@rails/activestorage@npm:6.1.7"
+"@rails/activestorage@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@rails/activestorage@npm:7.0.4"
   dependencies:
-    spark-md5: ^3.0.0
-  checksum: 7a47df6c1e031adb237184c3fb5b474f6df7c3e0a8fdc5a6d953c67dad326a80b23900bbb0ba42b5ad53b26c83e9c949dc28523f6e150529d41092ff16e8c4ee
+    spark-md5: ^3.0.1
+  checksum: f99eaf856782babbf54a79fdf22e797592ad2a90e83b35125cd2c546c56b9f1c2ee8fc9e9b73098356fbfbca05ea2ba832207d455d3ed6e57513ba33ccb74ea2
   languageName: node
   linkType: hard
 
-"@rails/ujs@npm:^6.0.0":
-  version: 6.1.7
-  resolution: "@rails/ujs@npm:6.1.7"
-  checksum: a597bdaee400f73d4a2b3b2de13433399166273b56e0655da1a4d3cd9e2406224c6506bfc205565e64a02068003647aa51c767bbc5a31d1bdfdc32048a86c618
+"@rails/ujs@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@rails/ujs@npm:7.0.4"
+  checksum: 26a05efb14fe09b792dcf8de067d5607d0fdafc0a6c5d73dd4d57a214d441b8cabbdb563b8f54e78932210de2b5236a466664edd53fc8bda71fa6d9835bd9266
   languageName: node
   linkType: hard
 
@@ -187,13 +187,6 @@ __metadata:
     delegates: ^1.0.0
     readable-stream: ^3.6.0
   checksum: 52590c24860fa7173bedeb69a4c05fb573473e860197f618b9a28432ee4379049336727ae3a1f9c4cb083114601c1140cee578376164d0e651217a9843f9fe83
-  languageName: node
-  linkType: hard
-
-"array-union@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "array-union@npm:3.0.1"
-  checksum: 47b29f88258e8f37ffb93ddaa327d4308edd950b52943c172b73558afdd3fa74cfd68816ba5aa4b894242cf281fa3c6d0362ae057e4a18bddbaedbe46ebe7112
   languageName: node
   linkType: hard
 
@@ -713,7 +706,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.7":
+"fast-glob@npm:^3.2.11":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -863,17 +856,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^12.0.0":
-  version: 12.2.0
-  resolution: "globby@npm:12.2.0"
+"globby@npm:^13.0.0":
+  version: 13.1.2
+  resolution: "globby@npm:13.1.2"
   dependencies:
-    array-union: ^3.0.1
     dir-glob: ^3.0.1
-    fast-glob: ^3.2.7
-    ignore: ^5.1.9
+    fast-glob: ^3.2.11
+    ignore: ^5.2.0
     merge2: ^1.4.1
     slash: ^4.0.0
-  checksum: 2539379a7fff3473d3e7c68b4540ba38f36970f43f760e36e301515d5cb98a0c5736554957d90390906bee632327beb2f9518d1acd6911f61e436db11b0da5b5
+  checksum: c148fcda0c981f00fb434bb94ca258f0a9d23cedbde6fb3f37098e1abde5b065019e2c63fe2aa2fad4daf2b54bf360b4d0423d85fb3a63d09ed75a2837d4de0f
   languageName: node
   linkType: hard
 
@@ -937,7 +929,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.9":
+"ignore@npm:^5.2.0":
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
   checksum: 6b1f926792d614f64c6c83da3a1f9c83f6196c2839aa41e1e32dd7b8d174cef2e329d75caabb62cb61ce9dc432f75e67d07d122a037312db7caa73166a1bdb77
@@ -994,18 +986,17 @@ __metadata:
   resolution: "instatalk@workspace:."
   dependencies:
     "@popperjs/core": ^2.11.6
-    "@rails/actioncable": ^6.0.0
-    "@rails/activestorage": ^6.0.0
-    "@rails/ujs": ^6.0.0
+    "@rails/actioncable": ^7.0.4
+    "@rails/activestorage": ^7.0.4
+    "@rails/ujs": ^7.0.4
     autoprefixer: ^10.4.13
     bootstrap: ^5.2.2
     bootstrap-icons: ^1.9.1
     bootstrap-show-password-toggle: ^1.3.0
     esbuild: ^0.15.13
-    jquery: ^3.6.1
     postcss: ^8.4.18
-    postcss-cli: ^9.1.0
-    sass: ^1.55.0
+    postcss-cli: ^10.0.0
+    sass: ^1.56.0
     turbolinks: ^5.2.0
   languageName: unknown
   linkType: soft
@@ -1067,13 +1058,6 @@ __metadata:
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
-  languageName: node
-  linkType: hard
-
-"jquery@npm:^3.6.1":
-  version: 3.6.1
-  resolution: "jquery@npm:3.6.1"
-  checksum: 6177d866a74f1137cad800f142c7cdbd5ab19cd4282546f8bdb4890c9f933b1d542ab96f2aa15d007e43c98de7315b0513e849ec5359d3ac5640f720892fe547
   languageName: node
   linkType: hard
 
@@ -1398,17 +1382,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-cli@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "postcss-cli@npm:9.1.0"
+"postcss-cli@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "postcss-cli@npm:10.0.0"
   dependencies:
     chokidar: ^3.3.0
     dependency-graph: ^0.11.0
     fs-extra: ^10.0.0
     get-stdin: ^9.0.0
-    globby: ^12.0.0
+    globby: ^13.0.0
     picocolors: ^1.0.0
-    postcss-load-config: ^3.0.0
+    postcss-load-config: ^4.0.0
     postcss-reporter: ^7.0.0
     pretty-hrtime: ^1.0.3
     read-cache: ^1.0.0
@@ -1418,16 +1402,16 @@ __metadata:
     postcss: ^8.0.0
   bin:
     postcss: index.js
-  checksum: 6f172cbdba2966f9b789e2ac6d2d87eb737e5a6c0bc025a729fb23631cfffb62df72472b14c91a8adacabd263c64f4b38fd70923da3727ee994def0b3c930003
+  checksum: 18bc1b8f10ef8043dce459be32b183575b50efbb58908621f0f240959fe0fae7dedd24ea22beac699242c8c53ce2fd172eec70a24970e0555d84541a61beb8ac
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:^3.0.0":
-  version: 3.1.4
-  resolution: "postcss-load-config@npm:3.1.4"
+"postcss-load-config@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "postcss-load-config@npm:4.0.1"
   dependencies:
     lilconfig: ^2.0.5
-    yaml: ^1.10.2
+    yaml: ^2.1.1
   peerDependencies:
     postcss: ">=8.0.9"
     ts-node: ">=9.0.0"
@@ -1436,7 +1420,7 @@ __metadata:
       optional: true
     ts-node:
       optional: true
-  checksum: 1c589504c2d90b1568aecae8238ab993c17dba2c44f848a8f13619ba556d26a1c09644d5e6361b5784e721e94af37b604992f9f3dc0483e687a0cc1cc5029a34
+  checksum: b61f890499ed7dcda1e36c20a9582b17d745bad5e2b2c7bc96942465e406bc43ae03f270c08e60d1e29dab1ee50cb26970b5eb20c9aae30e066e20bd607ae4e4
   languageName: node
   linkType: hard
 
@@ -1585,16 +1569,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.55.0":
-  version: 1.55.0
-  resolution: "sass@npm:1.55.0"
+"sass@npm:^1.56.0":
+  version: 1.56.0
+  resolution: "sass@npm:1.56.0"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 7d769ed08efce4e6134e0f3dc11c4f07e32c413ac8eb43c5855f2686890fdcbd80da34165c91fb4ba407f478ca108e171574b5a60cb9814a5ed09d80f6014f96
+  checksum: 37fb48b838f7a12f3c3efbf27bfc5f2b7fba015ed4b11effe32bd9488e30e1d5cefcbfef1e5c5dbd95557889fe2c7ec72f33e898cfc76182ea34eae03b1a4fb1
   languageName: node
   linkType: hard
 
@@ -1665,7 +1649,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spark-md5@npm:^3.0.0":
+"spark-md5@npm:^3.0.1":
   version: 3.0.2
   resolution: "spark-md5@npm:3.0.2"
   checksum: 5feebff0bfabcecf56ba03af3e38fdb068272ed41fbf0a94ff9ef65b9bb9cb1dd69be3684db6542e62497b1eac3ae324c07ac4dcb606465dc36ca048177077bf
@@ -1845,10 +1829,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.2":
-  version: 1.10.2
-  resolution: "yaml@npm:1.10.2"
-  checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
+"yaml@npm:^2.1.1":
+  version: 2.1.3
+  resolution: "yaml@npm:2.1.3"
+  checksum: 91316062324a93f9cb547469092392e7d004ff8f70c40fecb420f042a4870b2181557350da56c92f07bd44b8f7a252b0be26e6ade1f548e1f4351bdd01c9d3c7
   languageName: node
   linkType: hard
 
