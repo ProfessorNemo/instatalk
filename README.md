@@ -1,24 +1,31 @@
-# README
+# Instatalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###### Ruby: `3.1.2` Rails: `7.0.4`
 
-Things you may want to cover:
+### About:
+The "Instatalk" application allows users to communicate with each other in public chat rooms.
 
-* Ruby version
+Upon entering the web page, the user is given a random name and can create rooms. Online users are displayed on the main page.
 
-* System dependencies
+### Usage:
 
-* Configuration
+1. Clone repo
+```
+$ git clone git@github.com:ProfessorNemo/instatalk.git
+```
 
-* Database creation
+2. Install gems
+```
+$ bundle
+```
 
-* Database initialization
+3. Create database and run migrations (`PostgreSQL` database is used)
+```
+$ rails db:create db:migrate
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Start server
+```
+$ bin/dev
+```
+Open `localhost:3000` in browser
