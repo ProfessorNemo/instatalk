@@ -1,6 +1,8 @@
 # Instatalk
 
 ###### Ruby: `3.1.2` Rails: `7.0.4`
+![Снимок экрана от 2022-11-07 22-36-04](https://user-images.githubusercontent.com/102049907/200440355-da6e4088-38ea-4631-ad0f-2c8dce807766.png)
+![Снимок экрана от 2022-11-07 22-34-56](https://user-images.githubusercontent.com/102049907/200440364-bc255b1c-b7e8-4d21-9a74-db0504bcacde.png)
 
 ### About:
 The "Instatalk" application allows users to communicate with each other in public chat rooms.
