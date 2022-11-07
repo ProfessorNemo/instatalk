@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class UserStatus
   class << self
     def make_online(user)

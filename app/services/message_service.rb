@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class MessageService
   def initialize(body:, user:, room:)
     @body = body
@@ -17,12 +19,12 @@ class MessageService
   end
 
   def broadcast_message
-		# Шлем в канал "room_channel_id" объект "message", который затем получаем
-		# в коллбэке 'received' и достаем из ключа "message" наше сообщение
+    # Шлем в канал "room_channel_id" объект "message", который затем получаем
+    # в коллбэке 'received' и достаем из ключа "message" наше сообщение
     ActionCable.server.broadcast("room_channel_#{@room.id}", { message: render_message })
   end
 
-	# генерация шаблона с объектом @message в нем
+  # генерация шаблона с объектом @message в нем
   def render_message
     ApplicationController.renderer.render(
       partial: 'messages/message',
@@ -30,3 +32,4 @@ class MessageService
     )
   end
 end
+

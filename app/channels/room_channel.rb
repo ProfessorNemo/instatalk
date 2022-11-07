@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RoomChannel < ApplicationCable::Channel
   # вызывается, когда клиент по этому каналу подсоединился к серверу
   def subscribed
@@ -20,7 +22,7 @@ class RoomChannel < ApplicationCable::Channel
     # получем данные от пользователя, выводим их в лог нашего сервера
     logger.info "Speak: #{data.inspect}"
 
-    # что бы шлём
+    # что мы шлём
     MessageService.new(
       body: data['message'],
       room: @room,

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HandleOfflineJob < ApplicationJob
   queue_as :critical
 

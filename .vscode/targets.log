@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Nov  6 20:59:09 2022
+# Make data base, printed on Mon Nov  7 20:05:34 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ PWD = /home/professor/Документы/rubytut/lesson71/instatalk
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/professor/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/professor/Документы/rubytut
+OLDPWD = /home/professor/Документы/rubytut/lesson71/instatalk
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -101,7 +101,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 9793
+VSCODE_PID = 77543
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -283,9 +283,6 @@ c: run-console
 #  File has not been updated.
 
 rubocop:
- 
-make: *** No rule to make target 'all'.  Stop.
-
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -295,6 +292,9 @@ make: *** No rule to make target 'all'.  Stop.
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 #  Last modified 2022-11-04 03:00:50.656405769
 #  File has been updated.
 #  Successfully updated.
@@ -395,6 +395,6 @@ create:
 # strcache performance: lookups = 65 / hit rate = 26%
 # hash-table stats:
 # Load=48/8192=1%, Rehash=0, Collisions=0/65=0%
-# Finished Make data base on Sun Nov  6 20:59:09 2022
+# Finished Make data base on Mon Nov  7 20:05:34 2022
 
  

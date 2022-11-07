@@ -31,3 +31,8 @@ consumer.subscriptions.create('UsersOnlineChannel', {
         user['online'] ? findOrAppendTag(user) : removeTag(user)
     }
 })
+
+
+// функция "speak" принимает на вход сообщение. Шлем его с пом-ю этого метода.
+// Этот метод вызывает действие "speak" на серверном канале
+// метод "perform" дергает соответствующий метод канала на сервере

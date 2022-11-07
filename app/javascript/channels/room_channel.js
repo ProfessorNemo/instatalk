@@ -1,4 +1,4 @@
-import consumer from "./consumer"
+import consumer from './consumer'
 
 // Создаем подписку на канал RoomChannel. У объекта есть коллбэки
 // connected, disconnected, received, speak.Они действуют как обычные руби - методы.
@@ -58,7 +58,3 @@ const createRoomChannel = (roomId) => {
         }
     })
 }
-
-// функция "speak" принимает на вход сообщение. Шлем его с пом-ю этого метода.
-// Этот метод вызывает действие "speak" на серверном канале
-// метод "perform" дергает соответствующий метод канала на сервере

@@ -1,17 +1,5 @@
-import Rails from "@rails/ujs"
-import Turbolinks from "turbolinks"
-import * as ActiveStorage from "@rails/activestorage"
+// Entry point for the build script in your package.json
+import "@hotwired/turbo-rails"
+import "./controllers"
+import * as bootstrap from "bootstrap"
 import "./channels"
-
-import 'bootstrap/js/dist/dropdown'
-Rails.start()
-Turbolinks.start()
-ActiveStorage.start()
-
-$(function() {
-    console.log('Document is loaded');
-});
-
-$(document).on("turbolinks:load", function() {
-    console.log('Document is loaded (turbolinks:load)');
-})

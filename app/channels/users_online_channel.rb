@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 
 class UsersOnlineChannel < ApplicationCable::Channel
   after_unsubscribe :handle_offline
@@ -14,8 +15,10 @@ class UsersOnlineChannel < ApplicationCable::Channel
   private
 
   def handle_offline
-    HandleOfflineJob.
-      set(wait_until: 5.seconds.from_now).
-      perform_later(current_user)
+    HandleOfflineJob
+      .set(wait_until: 5.seconds.from_now)
+      .perform_later(current_user)
   end
 end
+
+
