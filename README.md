@@ -21,9 +21,9 @@ $ git clone git@github.com:ProfessorNemo/instatalk.git
 $ bundle
 ```
 
-3. Create database and run migrations (`PostgreSQL` database is used)
+3. Create database and run migrations + install all dependencies in "package.json" file
 ```
-$ rails db:create db:migrate
+$ make initially
 ```
 
 4. Start server
