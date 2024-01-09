@@ -1,6 +1,7 @@
 {
     "name": "instatalk",
     "dependencies": {
+        "@cucumber/cucumber": "^10.2.1",
         "@hotwired/stimulus": "^3.1.1",
         "@hotwired/turbo-rails": "^7.2.4",
         "@popperjs/core": "^2.11.6",

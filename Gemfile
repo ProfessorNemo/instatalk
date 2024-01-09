@@ -20,6 +20,9 @@ gem 'turbo-rails'
 group :development, :test do
   gem 'byebug'
   gem 'faker', git: 'https://github.com/faker-ruby/faker.git', branch: 'master'
+  %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+    gem lib, git: "https://github.com/rspec/#{lib}.git", branch: 'main'
+  end
 end
 
 group :development do
@@ -27,4 +30,12 @@ group :development do
   gem 'rubocop-performance', '~> 1.14', require: false
   gem 'rubocop-rails', '~> 2.14', require: false
   gem 'web-console', '>= 4.1.0'
+end
+
+group :test do
+  gem 'cucumber-rails', require: false
+  # database_cleaner is not mandatory, but highly recommended
+  gem 'database_cleaner'
+  gem "capybara"
+  gem "selenium-webdriver"
 end

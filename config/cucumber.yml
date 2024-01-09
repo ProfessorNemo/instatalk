@@ -1,0 +1,3 @@
+default: --publish-quiet
+wip: --tags @wip:3 --wip features
+prod: --publish-quiet --strict
